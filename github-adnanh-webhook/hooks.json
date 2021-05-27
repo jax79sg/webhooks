@@ -1,0 +1,14 @@
+[
+  {
+    "id": "insertca-repush-webhook",
+    "execute-command": "/mnt/DATA/projects/webhook/github-adnanh-webhook/scripts/insertca-repush/redeploy-webhook.sh",
+    "command-working-directory": "/mnt/DATA/projects/webhook/github-adnanh-webhook/scripts/insertca-repush",
+    "pass-arguments-to-command":
+    [
+      {
+        "source": "entire-payload",
+        "name": "event_type"
+      }
+    ]
+  }
+]
